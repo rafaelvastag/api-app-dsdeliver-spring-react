@@ -4,7 +4,10 @@ import Hello from './Hello';
 function App() {
   return (
     <div>
-      <Hello/>
+      <Hello message = "Rafael" />
+      <Hello message = "Wagner" />
+      <Hello message = "Cecilia" />
+      <Hello message = "Brasil" />
     </div>
   );
 }

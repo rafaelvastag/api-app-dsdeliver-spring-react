@@ -1,6 +1,10 @@
-function Hello() {
+type Props = {
+    message: string;
+}
+
+function Hello( {message} : Props) {
     return (
-        <h1>Componente Hello</h1>
+        <h1>Hello { message } ! </h1>
     )
 }
 
