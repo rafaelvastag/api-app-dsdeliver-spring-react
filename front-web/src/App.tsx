@@ -1,9 +1,11 @@
 import './App.css';
+import Counter from './Counter';
 import Hello from './Hello';
 
 function App() {
   return (
     <div>
+      <Counter></Counter>
       <Hello message = "Rafael" />
       <Hello message = "Wagner" />
       <Hello message = "Cecilia" />
@@ -13,3 +15,4 @@ function App() {
 }
 
 export default App;
+  
