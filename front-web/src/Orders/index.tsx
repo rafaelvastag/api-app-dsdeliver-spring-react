@@ -9,6 +9,7 @@ import OrderSummary from './OrderSummary';
 import Footer from '../Footer';
 import { checkIsSelected } from './herpers';
 import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function Orders() {
